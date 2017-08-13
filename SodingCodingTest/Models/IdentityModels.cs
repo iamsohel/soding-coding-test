@@ -29,5 +29,7 @@ namespace SodingCodingTest.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<SodingCodingTest.Models.Blog> Blogs { get; set; }
     }
 }
